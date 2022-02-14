@@ -105,3 +105,9 @@ input[type="text"] {
 .dn {
   display: none;
 }
+
+.date-time {
+  text-align: right;
+  align-self: flex-end;
+  font-weight: bold;
+}
