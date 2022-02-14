@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+  gap: 1rem;
+  width: 700px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.navigation li a {
+  text-decoration: none;
+}
+
+.book-list {
+  width: 700px;
+  margin-top: 1rem;
+}
+
+.book-list h1 {
+  padding-bottom: 1rem;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.book-container div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.title {
+  flex-grow: 0;
+}
+
+.author {
+  flex-grow: 1;
+}
+
+.remove {
+  flex-grow: 0;
+}
+
+.add-book h2 {
+  padding-bottom: 1rem;
+}
+
+form {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.add {
+  width: fit-content;
+  margin-right: -7rem;
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+  text-align: left;
+}
+
+.dn {
+  display: none;
+}

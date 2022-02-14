@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome books</title>
+  </head>
+  <body>
+    <nav>
+      <h2 class="logo">Awesome Books</h2>
+      <ul class="navigation">
+        <li><a class="list-link" href="#">List</a></li>
+        <li><a class="add-link" href="#">Add new</a></li>
+        <li><a class="contact-link" href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="book-list">
+      <h1>Awsome books</h1>
+      <div class="book-container"></div>
+    </section>
+
+    <section class="add-book dn">
+      <h2>Add New Book</h2>
+      <form action="#">
+        <input
+          type="text"
+          name="title"
+          id="title"
+          placeholder="Title"
+          class="title"
+          required
+        /><br /><br />
+        <input
+          type="text"
+          name="author"
+          id="author"
+          placeholder="Author"
+          class="author"
+          required
+        /><br /><br />
+        <input type="submit" value="Add Book" name="add" class="add" />
+      </form>
+    </section>
+
+    <section class="contact dn">
+      <h2>Contact Information</h2>
+      <p>
+        Do you have any question or you just want to say "Hello"?<br />
+        You can reach out to us!
+      </p>
+      <ul>
+        <li>Our e-mail:mail@mail.com</li>
+        <li>Our Phone number: 002233445533</li>
+        <li>
+          Our address
+          <address>Streetname 22,84503 City,Country</address>
+        </li>
+      </ul>
+    </section>
+
+    <footer>Copyright &copy; Awesome Books Ltd</footer>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
