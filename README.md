@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[live demo](https://zmekonnen251.github.io/Awesome-books-ES6/)
+[live demo](https://nostalgic-euclid-7eeed9.netlify.app/)
 
 ## 🤝 Contributing
 
