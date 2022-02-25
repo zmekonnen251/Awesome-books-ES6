@@ -3,7 +3,7 @@ const titleField = document.forms[0].title;
 const authorField = document.forms[0].author;
 
 const addBook = (bookCollection) => {
-  addBtn.addEventListener("click", (event) => {
+  addBtn.addEventListener('click', (event) => {
     event.preventDefault();
     const newBook = {
       title: titleField.value,
@@ -12,8 +12,8 @@ const addBook = (bookCollection) => {
 
     bookCollection.addNewBook(newBook);
 
-    titleField.value = "";
-    authorField.value = "";
+    titleField.value = '';
+    authorField.value = '';
   });
 };
 
